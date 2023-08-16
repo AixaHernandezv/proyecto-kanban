@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f5f3f3;
+   
+}
+header{
+    text-align: center;
+}
+.container{
+    padding: 24px;
+    margin: 0 auto;
+}
+
+.container-input-button{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.tables-container{
+    display: flex;
+    margin-top: 30px;
+    column-gap: 16px;
+
+}
+.table-container {   
+    width: 26%; 
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid gray;
+}
+
+.table{
+    width: 100%;
+}
+
+.toDo-container{
+    background-color:rgb(217, 85, 85);
+}
+
+.doing-container{
+    background-color: rgb(246, 246, 139);
+}
+
+.done-container{
+    background-color: rgb(99, 207, 171);
+}
+
+.btn-arrow{
+height: 40px;
+
+}
+
+.button-container{
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

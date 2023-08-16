@@ -33,7 +33,7 @@ function listTasks() {
         row.setAttribute('id',`row${index}`);
         todoList.appendChild(row);
         const btnDelete = document.querySelector(`#btnDelete${index}`);
-       btnDelete.addEventListener('click', deleteTask)
+        btnDelete.addEventListener('click', deleteTask)
     });
 }
 

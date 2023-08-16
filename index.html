@@ -8,33 +8,89 @@
         content="width=device-width, initial-scale=1.0"
     >
     <title>Kanban</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link
+        rel="stylesheet"
+        href="/css/styles.css"
+    >
 </head>
 
 <body>
+
     <header>
         <h1>Tablero Kanban</h1>
     </header>
-    <div>
-        <div>
+    <div class="container">
+        <div class="container-input-button">
             <input
                 name="tarea"
                 id="inputTask"
             ></input>
-            <button type="button" id="btnAddTask">Agregar</button>
+            <button
+                type="button"
+                id="btnAddTask"
+            >Agregar</button>
         </div>
-        
-            <div id="toDoContainer">                                    
-                <table id="todoList">
+        <div class="tables-container">
+            <div
+                id="toDoContainer"
+                class="table-container toDo-container"
+            >
+                <table
+                    id="todoList"
+                    class="table"
+                >
                     <thead>
                         <tr>
-                            <th>Por Hacer</th>                           
-                            <th></th>                                           
+                            <th>Por Hacer</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody></tbody>
                 </table>
             </div>
+            <div class="button-container">
+                
+                    <button class="btn-arrow">=></button>
+                
+            </div>
+            <div
+                id="doingContainer"
+                class="table-container doing-container"
+            >
+                <table
+                    id="doingList"
+                    class="table"
+                >
+                    <thead>
+                        <tr>
+                            <th>Haciendo</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="button-container">
+                <button>prueba</button>
+            </div>
+            <div
+                id="doneContainer"
+                class="table-container done-container"
+            >
+                <table
+                    id="doneList"
+                    class="table"
+                >
+                    <thead>
+                        <tr>
+                            <th>Hecho</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
     <script src="/js/main.js"></script>
 </body>
