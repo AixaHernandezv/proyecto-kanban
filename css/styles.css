@@ -55,7 +55,9 @@ header{
 
 .btn-arrow{
 height: 40px;
-
+width: 20px;
+border: none;
+cursor: pointer;
 }
 
 .button-container{
@@ -63,4 +65,7 @@ height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    row-gap: 12px;
+
 }
