@@ -7,6 +7,10 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
+    <script
+        src="https://kit.fontawesome.com/e10d5b30c3.js"
+        crossorigin="anonymous"
+    ></script>
     <title>Kanban</title>
     <link
         rel="stylesheet"
@@ -49,9 +53,10 @@
                 </table>
             </div>
             <div class="button-container">
-                
-                    <button class="btn-arrow">=></button>
-                
+
+                <button class="btn-arrow" ><i class="fa-solid fa-forward fa-xl"></i></button>
+                <button class="btn-arrow"><i class="fa-solid fa-backward fa-xl"></i></button> 
+
             </div>
             <div
                 id="doingContainer"
@@ -71,7 +76,8 @@
                 </table>
             </div>
             <div class="button-container">
-                <button>prueba</button>
+                <button class="btn-arrow" ><i class="fa-solid fa-forward fa-xl"></i></button>
+                <button class="btn-arrow"><i class="fa-solid fa-backward fa-xl"></i></i></button>             
             </div>
             <div
                 id="doneContainer"
@@ -92,7 +98,8 @@
             </div>
         </div>
     </div>
-    <script src="/js/main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/buttonAction.js"></script>
 </body>
 
 </html>

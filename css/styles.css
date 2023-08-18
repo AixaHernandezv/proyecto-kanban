@@ -69,3 +69,9 @@ cursor: pointer;
     row-gap: 12px;
 
 }
+
+.selected-row {
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
